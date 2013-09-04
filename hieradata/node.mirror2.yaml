@@ -1,0 +1,5 @@
+---
+gds_accounts::accounts:
+  pen-tester-1:
+    comment: pen-tester-1
+    ssh_key: 'AAAAB3NzaC1yc2EAAAADAQABAAABAQCi3aEe/0tRDRrAbvwpL3551fRN7L4LPRzIMcwFoK8qAixr+G6NpSnNRwXBKx0B21T+haZBaGYHx6Qxmb0nDz4dn6GN1AmRr75hXhyXCLF3F3UyUNRjRhXrsp5GMzPUKydv7T0BV84LWKduvC+/50ilkarPmK8fi4kQDdYH4xENyItxoEKQo0r1fmVszuZyOrk1EmO7ouYLZirplC7e8vxF6utRiqFnIrgEFo3jOoQmyc+6MS6u8H5gW/cUl0Hou5DlDxpJXbScemggpwJBTeG2AgivT/q6Yhbk2WnPa9fK6ngE3BctJ3rAX21i3jDH+2TuJMql22VSQTtJiMpkKOYJ'
