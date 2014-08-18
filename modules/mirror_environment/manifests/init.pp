@@ -47,4 +47,16 @@ class mirror_environment (
       ssl_cert             => '/etc/ssl/certs/ssl-cert-snakeoil.pem',
   }
 
+  # Install Trusty HWE kernel
+  if ($::hostname == 'mirror0.mirror.provider0.production.govuk.service.gov.uk') {
+    package { 'update-manager-core':
+      ensure => present,
+    }
+    package { ['linux-generic-lts-trusty', 'linux-image-generic-lts-trusty']:
+      ensure  => present,
+      require => Package['update-manage-core'],
+      unless  => '/usr/bin/hwe-support-status',
+    }
+  }
+
 }
