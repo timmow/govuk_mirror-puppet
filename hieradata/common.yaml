@@ -6,7 +6,7 @@ classes:
   - puppet
   - ssh::server
   - ufw
-  - gds_sudo
+  - govuk_sudo
   - nginx
   - mirror_environment
   - mirror_environment::fail2ban

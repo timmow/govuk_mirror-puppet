@@ -1,0 +1,19 @@
+# /etc/sudoers -- MANAGED BY PUPPET: DO NOT EDIT
+
+Defaults env_reset
+Defaults secure_path=/usr/lib/rbenv/shims:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/bin/usr/games
+
+# User privilege specification
+root ALL=(ALL) ALL
+
+# Allow members of group sudo to execute any command
+# (Note that later entries override this, so you might need to move
+# it further down)
+%sudo ALL=(ALL) NOPASSWD:ALL
+
+# Members of the admin group may gain root privileges
+%admin ALL=(ALL) NOPASSWD:ALL
+
+# Include additional sudoers files in /etc/sudoers.d
+# The '#' below does not indicate a comment
+#include dir /etc/sudoers.d
